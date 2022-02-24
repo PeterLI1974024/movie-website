@@ -58,6 +58,7 @@ button.active {
 }
 
 .morePicture button {
+  display: block;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   min-width: 5rem;
@@ -69,4 +70,9 @@ button.active {
   font-weight: bold;
   color: rgb(69, 116, 155);
   border: 2px solid rgb(64, 166, 194);
+}
+
+.more:hover {
+  background-color: rgb(178, 209, 231);
+  transition: all 0.5s ease-in-out;
 }
