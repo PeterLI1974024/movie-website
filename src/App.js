@@ -3,6 +3,7 @@ import Movie from './Movie'
 import { Filter } from './Filter';
 import './App.css';
 import {motion} from 'framer-motion'
+import { Footer } from './Footer';
 
 
 function App() {
@@ -52,7 +53,9 @@ function App() {
      <div className="morePicture">
        <button onClick={moreMoives} className='more'>Load More</button>
      </div>
+     <Footer />
     </div>
+   
   );
 }
 

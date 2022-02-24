@@ -1,3 +1,6 @@
+* {
+  margin-bottom: 0rem;
+}
 .popularMovies {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
@@ -60,7 +63,7 @@ button.active {
 .morePicture button {
   display: block;
   margin-top: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
   min-width: 5rem;
   padding: 1rem 2rem;
   border: none;
@@ -75,4 +78,13 @@ button.active {
 .more:hover {
   background-color: rgb(178, 209, 231);
   transition: all 0.5s ease-in-out;
+}
+
+.footer {
+  margin-bottom: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  margin-bottom: 0rem;
 }
